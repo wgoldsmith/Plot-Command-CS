@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<printers>
+  <printer name='T1500 36" Roll'>
+    
+    <changedby>
+      <user>name</user>
+      
+      <date>
+        <month>09</month>
+        <day>09</day>
+        <year>99</year>
+      </date>
+
+      <time>
+        <hour>09</hour>
+        <minute>09</minute>
+      </time>
+    </changedby>
+
+    <roll>Paper</roll>
+    
+  </printer>
+</printers>
