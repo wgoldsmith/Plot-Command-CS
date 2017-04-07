@@ -8,17 +8,17 @@
   <printer name='T1500 36" Roll'>
     
     <changedby>
-      <user>name</user>
+      <user>tempname</user>
       
       <date>
-        <month>09</month>
-        <day>09</day>
-        <year>99</year>
+        <month>mm</month>
+        <day>dd</day>
+        <year>yy</year>
       </date>
 
       <time>
-        <hour>09</hour>
-        <minute>09</minute>
+        <hour>hh</hour>
+        <minute>mm</minute>
       </time>
     </changedby>
 
@@ -30,17 +30,17 @@
   <printer name='T1500 34" Roll'>
 
     <changedby>
-      <user>name</user>
+      <user>tempname</user>
 
       <date>
-        <month>09</month>
-        <day>09</day>
-        <year>99</year>
+        <month>mm</month>
+        <day>dd</day>
+        <year>yy</year>
       </date>
 
       <time>
-        <hour>09</hour>
-        <minute>09</minute>
+        <hour>hh</hour>
+        <minute>mm</minute>
       </time>
     </changedby>
 
@@ -52,17 +52,17 @@
   <printer name='T7200 34" Roll'>
 
     <changedby>
-      <user>name</user>
+      <user>tempname</user>
 
       <date>
-        <month>09</month>
-        <day>09</day>
-        <year>99</year>
+        <month>mm</month>
+        <day>dd</day>
+        <year>yy</year>
       </date>
 
       <time>
-        <hour>09</hour>
-        <minute>09</minute>
+        <hour>hh</hour>
+        <minute>mm</minute>
       </time>
     </changedby>
 
@@ -74,17 +74,17 @@
   <printer name='T7200 24" Roll'>
 
     <changedby>
-      <user>name</user>
+      <user>tempname</user>
 
       <date>
-        <month>09</month>
-        <day>09</day>
-        <year>99</year>
+        <month>mm</month>
+        <day>dd</day>
+        <year>yy</year>
       </date>
 
       <time>
-        <hour>09</hour>
-        <minute>09</minute>
+        <hour>hh</hour>
+        <minute>mm</minute>
       </time>
     </changedby>
 
