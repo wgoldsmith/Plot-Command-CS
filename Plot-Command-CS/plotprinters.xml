@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <printers>
+  
+<!--Copy and Paste all in printer to add additional printers-->
+<!--Should only need to change  <printer name=...> to whatever the new printer is-->
+  
+<!-- Printer 1 -->  
   <printer name='T1500 36" Roll'>
     
     <changedby>
@@ -20,4 +25,71 @@
     <roll>Paper</roll>
     
   </printer>
+
+<!-- Printer 2 -->  
+  <printer name='T1500 34" Roll'>
+
+    <changedby>
+      <user>name</user>
+
+      <date>
+        <month>09</month>
+        <day>09</day>
+        <year>99</year>
+      </date>
+
+      <time>
+        <hour>09</hour>
+        <minute>09</minute>
+      </time>
+    </changedby>
+
+    <roll>Paper</roll>
+
+  </printer>
+
+<!-- Printer 3 -->  
+  <printer name='T7200 34" Roll'>
+
+    <changedby>
+      <user>name</user>
+
+      <date>
+        <month>09</month>
+        <day>09</day>
+        <year>99</year>
+      </date>
+
+      <time>
+        <hour>09</hour>
+        <minute>09</minute>
+      </time>
+    </changedby>
+
+    <roll>Paper</roll>
+
+  </printer>
+
+<!-- Printer 4 -->  
+  <printer name='T7200 24" Roll'>
+
+    <changedby>
+      <user>name</user>
+
+      <date>
+        <month>09</month>
+        <day>09</day>
+        <year>99</year>
+      </date>
+
+      <time>
+        <hour>09</hour>
+        <minute>09</minute>
+      </time>
+    </changedby>
+
+    <roll>Paper</roll>
+
+  </printer>
+  
 </printers>
