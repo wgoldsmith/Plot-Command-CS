@@ -5,6 +5,9 @@
 // <author>Winston Goldsmith</author>
 //-----------------------------------------------------------------------
 
+// April, 20 2017
+// Changes: 
+
 namespace Plot_Command_CS
 {
     using System;
@@ -115,6 +118,7 @@ namespace Plot_Command_CS
                             {
                                 this.ndtList[key].Text = this.ndtList[key].Text + " - " + reader.ReadElementContentAsString();
                             }
+
                             // day and year are both preceded by "/"
                             else if (reader.Name.Equals("day") || reader.Name.Equals("year"))
                             {
