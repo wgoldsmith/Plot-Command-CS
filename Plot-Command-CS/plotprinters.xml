@@ -8,7 +8,7 @@
   <printer name='T1500 36" Roll'>
     
     <changedby>
-      <user>tempname</user>
+      <user>tempname1</user>
       
       <date>
         <month>mm</month>
@@ -30,7 +30,7 @@
   <printer name='T1500 34" Roll'>
 
     <changedby>
-      <user>tempname</user>
+      <user>tempname2</user>
 
       <date>
         <month>mm</month>
@@ -52,7 +52,7 @@
   <printer name='T7200 34" Roll'>
 
     <changedby>
-      <user>tempname</user>
+      <user>tempname3</user>
 
       <date>
         <month>mm</month>
@@ -74,7 +74,7 @@
   <printer name='T7200 24" Roll'>
 
     <changedby>
-      <user>tempname</user>
+      <user>tempname4</user>
 
       <date>
         <month>mm</month>
