@@ -6,7 +6,6 @@
 //-----------------------------------------------------------------------
 
 // April, 20 2017
-// Changes: 
 
 namespace Plot_Command_CS
 {
@@ -27,6 +26,11 @@ namespace Plot_Command_CS
     /// </summary>
     public partial class PlotForm : Form
     {
+        /// <summary>
+        /// The path to the location of the xml file with the information about the printers
+        /// </summary>
+        private string path = @"S:\C3D Config\Configuration\hgg_lsp\PlotCommand\plotprinters.xml";
+
         /// <summary>
         /// A list to hold all the Panels on the form that show different colors based on what type of paper is selected
         /// </summary>
@@ -84,7 +88,7 @@ namespace Plot_Command_CS
             int key = 0;
             ///////////////////////////////////////////////////////////////////////               Change to new file location              //////////////////////////////////////////////
             /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            using (XmlReader reader = XmlReader.Create(@"S:\C3D Config\Configuration\hgg_lsp\PlotCommand\plotprinters.xml"))
+            using (XmlReader reader = XmlReader.Create(path))
             {
                 while (reader.Read())
                 {
@@ -178,7 +182,7 @@ namespace Plot_Command_CS
         private void WriteXML(int key)
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load(@"S:\C3D Config\Configuration\hgg_lsp\PlotCommand\plotprinters.xml");
+            doc.Load(path);
 
             XmlNodeList users = doc.GetElementsByTagName("user");
             XmlNodeList dates = doc.GetElementsByTagName("date");
@@ -207,7 +211,7 @@ namespace Plot_Command_CS
 
             rolls.Item(key).InnerText = this.SearchOptions(key); // roll
 
-            doc.Save(@"S:\C3D Config\Configuration\hgg_lsp\PlotCommand\plotprinters.xml");
+            doc.Save(path);
         }
 
         /// <summary>
